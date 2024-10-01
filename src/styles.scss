@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  background-color: darkcyan;
+}
+
+.ol-zoom-in, .ol-zoom-out {
+  background-color: #007bff;
+  border: 0.15rem solid black;
+  border-radius: 100%;
+  color: white;
+  font-size: 1.8rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  margin-top: 1.8rem;
+}
+
+.ol-zoom-in{
+  margin-left: 1.5rem;
+}
+
+.ol-zoom-out{
+  margin-left: 1rem;
+}
+
+.ol-zoom-in:hover, .ol-zoom-out:hover {
+  background-color: #0056b3;
+}
+
+.ol-zoomslider {
+  background-color: #333;
+  width: 0.3rem;
+  height: 10rem;
+  position: absolute;
+  top: 6rem;
+  left: 1.8rem;
+}
+
+.ol-zoomslider .ol-zoomslider-thumb {
+  background-color: #007bff;
+  border-radius: 50%;
+  width: 0.20rem;
+  height: 1rem;
+  border: 0.15rem solid #fff;
+  position: absolute;
+  left: -0.38rem;
+}
+
+.ol-zoomslider:hover .ol-zoomslider-thumb {
+  background-color: #0056b3;
+}
+
+.titlePopup{
+  text-align: center;
+}
